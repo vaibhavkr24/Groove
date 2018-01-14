@@ -1,0 +1,246 @@
+*{
+	padding:0;
+	margin:0;
+}
+header {
+	background: linear-gradient(black 15%, grey 85%);   
+	/*border: 5px solid black;*/
+	height: 93px;
+	border-radius: 20px;
+	margin: 0px 50px 0px 50px;
+	padding: 0px 10px 10px 10px;
+}
+#main {  
+	/*border: 5px solid black;*/
+	height: 445px;
+	/*margin: 0px 50px 20px 50px;*/
+	padding: 10px;
+}
+#foot{
+    border-top: 2px solid #231919;
+    /* margin: 0px 50px 20px 50px; */
+    height: 41px;
+    text-align: center;
+    color: #0a0101;
+    font-size: 23px;
+    font-family: monospace;
+    background: #f7f9fb;
+    border-radius: 4px;
+    block-size: initial;
+}
+#foot p{
+	text-align: center;
+    color: #0a0101;
+    font-size: 23px;
+    font-family: monospace;
+}
+#inp1
+{
+	height: 20px;
+	border-radius: 5px;
+}
+#inp2
+{
+	height: 20px;
+	border-radius: 5px;
+}
+#name {
+
+    color: whitesmoke;
+    text-shadow: 1.5px 4px 1.2px #0c1792;
+    /* word-spacing: 4.2px; */
+    font-size: 50px;
+    float: left;
+}
+
+#set_it
+{
+	height:500px;
+	margin-top:-20px;
+}
+#set_it p
+{
+	padding:0;
+	margin:0;
+}
+#login {
+	color: white;
+	padding: 10px;
+    float:right;
+}
+#ok {
+	margin: 0px 75px 0px 120px;
+	list-style: none;
+	padding: 0px 10px 0px 10px;
+}
+#ok li {
+	width: 100px;
+	padding: 5px;
+	float: left;
+}
+#ok button, #guest, #log, #sign, .container button {
+	width: 100px;
+	border-radius: 10px; 
+	color: white;
+	padding: 5px;
+	background: linear-gradient(grey, black);
+	transition: background 1s;
+}
+#ok button:hover, #guest:hover, #log:hover, #sign:hover, .container button:hover {
+	background: linear-gradient(white 10%, grey 90%);
+	color: black;
+}
+#guest {
+	width: 150px;
+	margin: 0px 80px 0px 1050px;
+	float: left;
+}
+
+.container input[type='text'], .container input[type='password'] {
+	border-bottom: 1px solid black;
+	padding: 2px;
+	margin: 4px;
+	width: 95%;
+}
+
+.container input[type='text']:hover, .container input[type='password']:hover {
+	
+}
+
+.container input[type='text']:focus, .container input[type='password']:focus {
+	border-color: blue;
+}
+
+.modal {
+    display: none;
+	color: black;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    /*overflow: auto;*/
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background: linear-gradient(white 10%, silver 90%);
+	align-content: left; 
+    margin: 5% auto 15% auto;
+    border: 5px solid grey;
+	border-radius: 20px;
+	padding: 20px 20px 20px 20px;
+    width: 500px;
+	height: 300px;
+}
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: silver;
+    cursor: pointer;
+}
+
+.clearfix {
+	width: 500px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+#guestmodal{
+
+height:50%;
+width:50%;
+}
+#loginmodal{
+
+}
+
+	    input
+{
+	height: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px;
+	margin-bottom: -4px;
+}
+#inp1,#inp2{
+	height: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px;	height: 20px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px;
+}
+
+#foot{
+    border-top: 2px solid #231919;
+    /* margin: 0px 50px 20px 50px; */
+    padding-top: -20px;
+    height: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 4px;
+  
+}
+#cancel{
+	background:white;
+}
+.clearfix {
+    width: 500px;
+    margin: 0;
+    -webkit-margin-top-collapse: discard;}
+    p{
+    	font-family: monospace;
+    	font-size: 15px;
+    }
+    span #errmsg
+    {
+    	color:red;
+    	font-family: sans-serif;
+    }
+    #sign
+    {
+    	
+    position:relative;
+    top:68px;
+   left:620px;
+    }
